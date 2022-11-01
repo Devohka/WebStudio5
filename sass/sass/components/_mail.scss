@@ -1,0 +1,44 @@
+.mail__footer--div {
+  margin-left: 50px;
+}
+
+.mail__div--title {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.mail__div--comment {
+  width: 450px;
+  height: 40px;
+
+  background-color: #2f303a;
+  border-radius: 3px;
+  border-color: rgba(255, 255, 255, 0.3);
+
+  margin-right: 12px;
+}
+
+.mail__div--comment:hover {
+  border-color: #2196f3;
+}
+
+.mail__div--button {
+  background-color: #2196f3;
+  border: none;
+  padding-top: 10px;
+  padding-left: 28px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  color: #ffffff;
+  position: absolute;
+}
+
+.mail__div--button::before {
+  content: '';
+  position: relative;
+  display: block;
+  margin-right: 7px;
+  transition: background-color 250ms cubic-bezier(0.165, 0.84, 0.44, 1) 1500ms;
+  transform: translateY(0);
+  background-image: url();
+}

@@ -1,0 +1,37 @@
+.hiro__section--title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  padding-left: 452px;
+  padding-right: 452px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hiro__section {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../imeges/Img.png');
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.hero__section--button {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: #2196f3;
+  margin-top: 30px;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  color: #ffffff;
+}
